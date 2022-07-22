@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.API\\Products.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.API\\Products.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.API\\Products.API.csproj",
+        "projectName": "Products.API",
+        "projectPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.API\\Products.API.csproj",
+        "packagesPath": "C:\\Users\\mag_o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mag_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Application\\Products.Application.csproj": {
+                "projectPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Application\\Products.Application.csproj"
+              },
+              "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistance\\Products.Persistance.csproj": {
+                "projectPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistance\\Products.Persistance.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Application\\Products.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Application\\Products.Application.csproj",
+        "projectName": "Products.Application",
+        "projectPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Application\\Products.Application.csproj",
+        "packagesPath": "C:\\Users\\mag_o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mag_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistance\\Products.Persistance.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistance\\Products.Persistance.csproj",
+        "projectName": "Products.Persistance",
+        "projectPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistance\\Products.Persistance.csproj",
+        "packagesPath": "C:\\Users\\mag_o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mag_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistence.Entities\\Products.Persistence.Entities.csproj": {
+                "projectPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistence.Entities\\Products.Persistence.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistence.Entities\\Products.Persistence.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistence.Entities\\Products.Persistence.Entities.csproj",
+        "projectName": "Products.Persistence.Entities",
+        "projectPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistence.Entities\\Products.Persistence.Entities.csproj",
+        "packagesPath": "C:\\Users\\mag_o\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Persistence.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mag_o\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

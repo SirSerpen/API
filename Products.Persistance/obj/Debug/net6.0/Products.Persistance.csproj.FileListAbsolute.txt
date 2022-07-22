@@ -1,0 +1,17 @@
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\bin\Debug\net6.0\Products.Persistance.deps.json
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\bin\Debug\net6.0\Products.Persistance.runtimeconfig.json
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\bin\Debug\net6.0\Products.Persistance.dll
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\bin\Debug\net6.0\Products.Persistance.pdb
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\bin\Debug\net6.0\Products.Persistence.Entities.dll
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\bin\Debug\net6.0\Products.Persistence.Entities.pdb
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.csproj.AssemblyReference.cache
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.AssemblyInfoInputs.cache
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.AssemblyInfo.cs
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.csproj.CopyComplete
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.dll
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\refint\Products.Persistance.dll
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.pdb
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\Products.Persistance.genruntimeconfig.cache
+C:\Users\mag_o\OneDrive\Рабочий стол\LearnAPI\LearnAPI\Products.Persistance\obj\Debug\net6.0\ref\Products.Persistance.dll
