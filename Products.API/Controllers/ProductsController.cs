@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using Products.Application.Products.AddProduct;
+using Products.DTO.Products;
 
 namespace LearnAPI.Controllers
 {
@@ -6,63 +9,24 @@ namespace LearnAPI.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-    //    private readonly DataContext _context;
+        private readonly IMediator _mediator;
 
-    //    public ProductController(DataContext context)
-    //    {
-    //        _context = context;
-    //    }
+        public ProductController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
 
-    //    [HttpGet]
-    //    public async Task<ActionResult<List<Product>>> Get()
-    //    {
-    //        return Ok(await _context.Product.ToListAsync());
-    //    }
+        [HttpPost]
+        public async Task<int> AddProduct(AddEditProductDto data)
+        {
+            return await _mediator.Send(new AddProductCommand(data));
+        }
 
-    //    [HttpGet("{id}")]
-    //    public async Task<ActionResult<List<Product>>> Get(int id)
-    //    {
-    //        var product = await _context.Product.FindAsync(id);
-    //        if (product == null)
-    //            return BadRequest("Product not found.");
-    //        return Ok(product);
-    //    }
 
-    //    [HttpPost]
-    //    public async Task<ActionResult<List<Product>>> AddProduct(Product product) 
-    //    {
-    //        _context.Product.Add(product);
-    //        await _context.SaveChangesAsync();
+        [HttpDelete("{id}")]
+        public async Task DeleteProduct([FromRoute] int id)
+        {
 
-    //        return Ok(await _context.Product.ToListAsync());
-    //    }
-
-    //    [HttpPut]
-    //    public async Task<ActionResult<List<Product>>> UpdateProduct(Product request)
-    //    {
-    //        var dbProduct = await _context.Product.FindAsync(request.ID);
-    //        if (dbProduct == null)
-    //            return BadRequest("Product not found");
-
-    //        dbProduct.Name = request.Name;
-    //        dbProduct.Description = request.Description;
-
-    //        await _context.SaveChangesAsync();
-
-    //        return Ok(await _context.Product.ToListAsync());
-    //    }
-
-    //    [HttpDelete("{id}")]
-    //    public async Task<ActionResult<List<Product>>> Delete(int id)
-    //    {
-    //        var dbProduct = await _context.Product.FindAsync(id);
-    //        if (dbProduct == null)
-    //            return BadRequest("Product not found.");
-
-    //        _context.Product.Remove(dbProduct);
-    //        await _context.SaveChangesAsync();
-
-    //        return Ok(await _context.Product.ToListAsync());
-    //    }
+        }
     }
 }

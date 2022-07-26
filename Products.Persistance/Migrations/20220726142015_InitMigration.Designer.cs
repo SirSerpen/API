@@ -12,8 +12,8 @@ using Products.Persistence.Context;
 namespace Products.Persistance.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220722111522_Init_Migration")]
-    partial class Init_Migration
+    [Migration("20220726142015_InitMigration")]
+    partial class InitMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -41,7 +41,7 @@ namespace Products.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Products.Persistence.Entities.ProductDetail", b =>
@@ -69,7 +69,7 @@ namespace Products.Persistance.Migrations
                     b.ToTable("ProductDetails");
                 });
 
-            modelBuilder.Entity("Products.Persistence.Entities.Producthop", b =>
+            modelBuilder.Entity("Products.Persistence.Entities.ProductShop", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -124,7 +124,7 @@ namespace Products.Persistance.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Products.Persistence.Entities.Producthop", b =>
+            modelBuilder.Entity("Products.Persistence.Entities.ProductShop", b =>
                 {
                     b.HasOne("Products.Persistence.Entities.Product", "Product")
                         .WithMany("Shops")

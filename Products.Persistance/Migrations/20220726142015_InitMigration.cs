@@ -5,12 +5,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Products.Persistance.Migrations
 {
-    public partial class Init_Migration : Migration
+    public partial class InitMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Product",
+                name: "Products",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -20,7 +20,7 @@ namespace Products.Persistance.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Product", x => x.Id);
+                    table.PrimaryKey("PK_Products", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -51,9 +51,9 @@ namespace Products.Persistance.Migrations
                 {
                     table.PrimaryKey("PK_ProductDetails", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ProductDetails_Product_ProductId",
+                        name: "FK_ProductDetails_Products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "Product",
+                        principalTable: "Products",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -71,9 +71,9 @@ namespace Products.Persistance.Migrations
                 {
                     table.PrimaryKey("PK_ProductShops", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ProductShops_Product_ProductId",
+                        name: "FK_ProductShops_Products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "Product",
+                        principalTable: "Products",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -110,7 +110,7 @@ namespace Products.Persistance.Migrations
                 name: "ProductShops");
 
             migrationBuilder.DropTable(
-                name: "Product");
+                name: "Products");
 
             migrationBuilder.DropTable(
                 name: "Shops");

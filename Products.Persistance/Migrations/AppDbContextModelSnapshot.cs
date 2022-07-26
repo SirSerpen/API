@@ -39,7 +39,7 @@ namespace Products.Persistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Product");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Products.Persistence.Entities.ProductDetail", b =>
@@ -67,7 +67,7 @@ namespace Products.Persistance.Migrations
                     b.ToTable("ProductDetails");
                 });
 
-            modelBuilder.Entity("Products.Persistence.Entities.Producthop", b =>
+            modelBuilder.Entity("Products.Persistence.Entities.ProductShop", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -122,7 +122,7 @@ namespace Products.Persistance.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("Products.Persistence.Entities.Producthop", b =>
+            modelBuilder.Entity("Products.Persistence.Entities.ProductShop", b =>
                 {
                     b.HasOne("Products.Persistence.Entities.Product", "Product")
                         .WithMany("Shops")
