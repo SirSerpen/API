@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+	<PackageReference Include="MediatR" Version="10.0.1" />
+	<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Products\" />
+    <ProjectReference Include="..\Products.Persistance\Products.Persistance.csproj" />
   </ItemGroup>
 
 </Project>

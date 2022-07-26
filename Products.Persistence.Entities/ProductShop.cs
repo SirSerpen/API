@@ -1,6 +1,6 @@
 ﻿namespace Products.Persistence.Entities
 {
-    public class Producthop
+    public class ProductShop
     {
         public int Id { get; set; }
 

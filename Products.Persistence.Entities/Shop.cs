@@ -8,6 +8,6 @@
 
         public string Address { get; set; }
 
-        public virtual ICollection<Producthop> Product { get; set; }
+        public virtual ICollection<ProductShop> Product { get; set; }
     }
 }

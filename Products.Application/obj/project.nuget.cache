@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3wdeVXNlDmg/wnYUvvzG+cXLnTSH2jfRchLLHQZdLHpdsb3PbftCc2p4wlE9/1sc8N4fleML89Aocdq8Rdt5w==",
+  "dgSpecHash": "4vsaG8iJcj0caxvLKrs17yMJZX0GC93OCKhSvROM8vT8akDXva0MMoCHyxfTMuAf3OPAtrulJz6ZVByzJRsbyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mag_o\\OneDrive\\Рабочий стол\\LearnAPI\\LearnAPI\\Products.Application\\Products.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mag_o\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\mag_o\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\mag_o\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\mag_o\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\mag_o\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\mag_o\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
